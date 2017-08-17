@@ -839,10 +839,10 @@ li {
 }
 
 label {
-    font-size: 155%;
+    font-size: 145%;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=name], input[type=email], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -853,6 +853,10 @@ input[type=text], input[type=email], textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
+
+    textarea {
+        height: 200px;
+    }
 
 /* Style the send button */
 #submit {
