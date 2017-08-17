@@ -1847,17 +1847,21 @@ label {
     font-size: 135%;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=name], input[type=email], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 100%;
-    margin-top: 6px;
+    font-size: 110%;
+    margin-top: 4px;
     margin-bottom: 16px;
     resize: vertical;
 }
+
+    textarea {
+        height: 200px;
+    }
 
 /* Style the send button */
 #submit {
@@ -2494,17 +2498,21 @@ label {
     margin-right: 349px;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=name], input[type=email], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 110%;
-    margin-top: 6px;
+    margin-top: 4px;
     margin-bottom: 16px;
     resize: vertical;
 }
+
+    textarea {
+        height: 200px;
+    }
 
 /* Style the send button */
 #submit {
@@ -3172,17 +3180,21 @@ label {
     margin-right: 349px;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=name], input[type=email], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 110%;
-    margin-top: 6px;
+    margin-top: 4px;
     margin-bottom: 16px;
     resize: vertical;
 }
+
+    textarea {
+        height: 200px;
+    }
 
 /* Style the send button */
 #submit {
