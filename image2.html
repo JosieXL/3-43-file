@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>My Photos</title>
+    <meta charset="utf-8">
+    <!--the page is responsive design website-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body id="IO">
+<!--This is the body part-->
+<div class="mn-con">
+<div id="slidy">
+<a href="photo%20(Australia).html"><button id=
+"sliddy"><img src="images/cancel-button.gif"></button></a>
+</div>
+<div>
+  <img class="mySlides" src="images/IMG_3930.gif">
+  <img class="mySlides" src="images/IMG_3854.gif">
+  <img class="mySlides" src="images/IMG_3844.gif">
+  <img class="mySlides" src="images/img-haipao.gif">
+  <img class="mySlides" src="images/img-haipao1.gif">
+</div>
+<div>
+<button id="slide" onclick="plusDivs(-1)"><img src="images/left-button.gif"></button>
+  <button id="slidt" onclick="plusDivs(1)"><img src="images/right-button.gif"></button>
+  <hr>
+</div>
+<div id="foot">
+<p>&copy; Josie Li, 2017</p>
+</div>   
+    </div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+</html>
+    
