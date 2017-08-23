@@ -779,7 +779,7 @@ li {
         } 
 /*about&contact*/
 .main-con {
-    min-height: 955px;
+    min-height: 1005px;
     position: relative;
 }
     
@@ -2964,7 +2964,7 @@ li {
     text-align: center;
     font-size: 180%;
     width: 70%;
-    margin: -540px 0px 200px 123px;
+    margin: -550px 0px 200px 123px;
 }
 
 #pd {
@@ -3023,97 +3023,448 @@ li {
     bottom: 0;
 }
 
-/*Photo(Austraila)*/
-.mi-content {
-      min-height: 1200px;  
-      position: relative;
+    @media only screen and (max-width:609px) {
+      #nk{
+    margin: -20px 0px 0px 403px;
+}     
+    }
+    @media only screen and (max-width:592px) {
+     #pg {
+    width: 75%;
+    margin-left: 80px;
+}
+}
+     @media only screen and (max-width:568px) {
+     #pf {
+    width: 75%;
+    margin: -550px 0px 200px 93px;
+}
+#nh {
+    width: 83%;
+}
+}
+    @media only screen and (max-width:553px) {
+     #pa {
+    max-width: 380px;
+    margin-top: 25px; 
+    margin-left: 25px;
 }
 
+#pg {
+    font-size: 150%;
+    width: 75%;
+    margin-top: 420px;
+    margin-left: 83px;
+}
+
+#ps {
+    text-align: center;
+    max-width: 380px;
+    margin-top: -250px;
+    margin-left: 25px;
+}
+
+#pf {
+    text-align: center;
+    font-size: 155%;
+    width: 88%;
+    margin: -405px 0px 100px 55px;
+}
+
+#pd {
+    text-align: center;
+    max-width: 380px;
+    margin-top: 310px;
+    margin-left: 50px;
+    margin-bottom: 180px;
+}
+#nh {
+    width: 101%;
+}
+        #nk{
+    margin: -20px 0px 0px 303px;
+}   
+}
+     @media only screen and (max-width:462px) {
+     #pa {
+    max-width: 340px;
+    margin-top: 25px; 
+    margin-left: 25px;
+}
+
+#pg {
+    font-size: 130%;
+    width: 75%;
+    margin-top: 400px;
+    margin-left: 63px;
+}
+
+#ps {
+    text-align: center;
+    max-width: 340px;
+    margin-top: -220px;
+    margin-left: 25px;
+}
+
+#pf {
+    text-align: center;
+    font-size: 130%;
+    width: 83%;
+    margin: -375px 0px 80px 65px;
+}
+
+#pd {
+    max-width: 340px;
+    margin-top: 310px;
+    margin-left: 50px;
+    margin-bottom: 180px;
+}
+        #nk{
+    margin: -20px 0px 0px 203px;
+}   
+         #nh {
+    font-size: 20px;
+}
+}
+     @media only screen and (max-width:400px) {
+         #pg {
+    font-size: 130%;
+    width: 75%;
+    margin-top: 390px;
+    margin-left: 63px;
+}
+
+#ps {
+    text-align: center;
+    max-width: 340px;
+    margin-top: -230px;
+    margin-left: 25px;
+}
+
+#pf {
+    text-align: center;
+    font-size: 130%;
+    width: 83%;
+    margin: -385px 0px 80px 65px;
+}
+    }
+@media only screen and (max-width:375px) {
+     #pa {
+    max-width: 320px;
+    margin-top: 25px; 
+}
+
+#pg {
+    font-size: 130%;
+    width: 75%;
+    margin-top: 450px;
+    margin-left: 55px;
+    margin-bottom: -160px;
+}
+
+#ps {
+    text-align: center;
+    max-width: 320px;
+    margin-top: -300px;
+    margin-left: 25px;
+}
+
+#pf {
+    text-align: center;
+    font-size: 130%;
+    width: 83%;
+    margin: -445px 0px 80px 35px;
+}
+
+#pd {
+    max-width: 280px;
+    margin-top: 310px;
+    margin-left: 25px;
+    margin-bottom: 180px;
+}
+        #nk{
+            font-size: 18px;
+    margin: 10px 0px 0px 103px;
+}   
+         #nh {
+    font-size: 15px;
+}
+}
+/*Photo(Austraila)*/
+    .mi-content {
+      min-height: 1580px;  
+      position: relative;
+}
+    
 #na {
-    max-width: 350px;
-    margin: 40px 277px 221px 0px;
+    text-align: center;
+    max-width: 480px;
+    margin-top: 25px;
+    
 }
 
 #ng {
-    font-size: 150%;
-    width: 45%;
-    margin: -206px 0px 300px 70px;
+    text-align: center;
+    font-size: 180%;
+    width: 70%;
+    margin-top: 580px;
+   margin-bottom: -110px;
+    margin-left: 103px;
 }
 
 #ns {
-    max-width: 350px;
-    margin: -476px 277px 5% 0px;
+    text-align: center;
+    max-width: 480px;
+    margin-top: -400px;
+    margin-bottom: 100
 }
 
 #nf {
-    font-size: 150%;
-    width: 40%;
-    margin: -650px 0px 303px 433px;
+    text-align: center;
+    font-size: 180%;
+    width: 75%;
+    margin: -530px 0px 200px 103px;
 }
 
 #nd {
-    width: 37%;
-    margin: -280px 0px 0px 423px;
+    text-align: center;
+    max-width: 380px;
+    margin-top: 310px;
+    margin-left: 30px;
+    margin-bottom: 180px;
 }
-
-    @media only screen and (max-width:756px) {
-        #rp {
-            margin-left: -14px;
-        }
-        #leftp {
-            margin-left: -16px;
-        }
-        #ns {
-            margin-bottom: 36px;
-        }
-    }
-    
-    @media only screen and (max-width:721px) {
-        #leftp {
-            margin-left: -44px;
-        }
-    }
     
 #nhi {
     color: white;
-    width: 70%;
-    font-size: 21px;
+    width: 80%;
+    font-size: 23px;
     margin-right: 55%;
 }
 
-#nji,
-#njki{
+#nji {
     color: whitesmoke;
     text-decoration: none;
-    font-size: 100%;
-    margin-left: -230px;
+    font-size: 18px;
+    margin-left: -100px;
+}
+
+#njki {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: -100px;
 }
 
 #nji:hover {
      color: aqua;
 }
-
+    
 #njki:hover {
      color: aqua;
 }
     
-#nki {
+#nki{
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding: 0px;
-    margin: -20px 0px 0px 453px;
-}
+    margin: 0px 0px 0px 393px;
+}   
 
 #nfi {
-   width:100%;
+    width:100%;
     background-color: #008cef;
-    height: 125px;
+    height: 150px;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+    
+    @media only screen and (max-width:576px) {
+     #na {
+    max-width: 380px;
+    margin-top: 25px; 
+    margin-left: 25px;
+}
+
+#ng {
+    font-size: 150%;
+    width: 70%;
+    margin-top: 420px;
+    margin-left: 83px;
+}
+
+#ns {
+    text-align: center;
+    max-width: 380px;
+    margin-top: -250px;
+    margin-left: 25px;
+}
+
+#nf {
+    text-align: center;
+    font-size: 155%;
+    width: 90%;
+    margin: -390px 0px 100px 25px;
+}
+
+#nd {
+    text-align: center;
+    max-width: 380px;
+    margin-top: 300px;
+    margin-left: 25px;
+    margin-bottom: 180px;
+}
+        #nki{
+    margin: 0px 0px 0px 303px;
+}   
+        #nji {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: -30px;
+}
+
+#njki {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: -30px;
+}
+}
+     @media only screen and (max-width:504px) {
+     #na {
+    max-width: 340px;
+    margin-top: 25px; 
+    margin-left: 25px;
+}
+
+#ng {
+    font-size: 130%;
+    width: 75%;
+    margin-top: 370px;
+    margin-left: 63px;
+}
+
+#ns {
+    text-align: center;
+    max-width: 340px;
+    margin-top: -210px;
+    margin-left: 25px;
+}
+
+#nf {
+    text-align: center;
+    font-size: 130%;
+    width: 85%;
+    margin: -345px 0px 80px 35px;
+}
+
+#nd {
+    max-width: 340px;
+    margin-top: 280px;
+    margin-left: 25px;
+    margin-bottom: 180px;
+}
+        #nki{
+    margin: 10px 0px 0px 203px;
+}   
+       #nji {
+    font-size: 14px;
+    margin-left: -10px;
+}
+
+#njki {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: -10px;
+}  
+         #nhi {
+    color: white;
+    width: 80%;
+    font-size: 19px;
+    margin-left: 26px;
+}
+}
+
+     @media only screen and (max-width:446px) {
+         #ng {
+    font-size: 130%;
+    width: 75%;
+    margin-top: 390px;
+    margin-left: 63px;
+}
+
+#ns {
+    text-align: center;
+    max-width: 340px;
+    margin-top: -230px;
+    margin-left: 25px;
+}
+
+#nf {
+    text-align: center;
+    font-size: 130%;
+    width: 83%;
+    margin: -385px 0px 80px 65px;
+}
+    }
+    @media only screen and (max-width:375px) {
+      #na {
+    max-width: 320px;
+    margin-top: 25px; 
+}
+
+#ng {
+    font-size: 130%;
+    width: 80%;
+    margin-top: 400px;
+    margin-left: 45px;
+    margin-bottom: -80px;
+}
+
+#ns {
+    text-align: center;
+    max-width: 320px;
+    margin-top: -300px;
+    margin-left: 25px;
+}
+
+#nf {
+    text-align: center;
+    font-size: 130%;
+    width: 83%;
+    margin: -395px 0px 80px 35px;
+}
+
+#nd {
+    max-width: 280px;
+    margin-top: 250px;
+    margin-left: 25px;
+    margin-bottom: 180px;
+}
+        #nki{
+    margin: 0px 0px 0px 103px;
+}   
+        #nji {
+    font-size: 12px;
+    margin-left: 0px;
+}
+
+#njki {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 0px;
+}
+        #nhi {
+    width: 87%;
+    font-size: 16px;
+}
 }
 /*about&contact*/
 .main-con {
@@ -3254,7 +3605,7 @@ border: solid #53b7c9 2px;
     background-color: #454547; 
     border: 0;
     transform: scale(0.8);
-    margin: 5% -2% 5% 69%;
+    margin: 5% -4% 5% 58%;
 }
 
 #slidt {
@@ -3265,7 +3616,7 @@ border: solid #53b7c9 2px;
 
 #slidy {
     width: 8%;
-     transform: scale(0.8);
+     transform: scale(0.6);
     margin-top: -5.5%;
     margin-left: 85%;
 }
@@ -3284,7 +3635,7 @@ border: solid #53b7c9 2px;
 }
 
 hr {
-    margin-top: -9%;
+    margin-top: -11%;
     color: white;
 }
 
@@ -3305,9 +3656,9 @@ hr {
         font-weight: bold;
         padding: 0px;
 }
-    @media only screen and(max-width:575px) {
+@media only screen and(max-width:424px) {
         .mn-con {
-      min-height: 797px;  
+      min-height: 607px; 
 }
     
 .mySlides {
@@ -3320,14 +3671,14 @@ hr {
 #slide {
     background-color: #454547; 
     border: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
     margin: 5% -2% 5% 69%;
 }
 
 #slidt {
     background-color: #454547; 
     border: 0;
-    transform: scale(0.8);
+    transform: scale(0.6);
 }
 
 #slidy {
@@ -3338,7 +3689,66 @@ hr {
 }
         
 hr {
-    margin-top: -9%;
+    margin-top: -19%;
+}
+  }  
+@media only screen and(max-width:375px) {
+.mn-con {
+    background-color: #454547;
+      min-height: 607px;  
+    margin-top: 100px;
+}
+    
+#IO {
+    background-color: #454547;
+    margin-left: -0.05%;
+    margin-right: -0.05%;
+    margin-top: -0.05%;
+    padding-top: 0.5%;
+}
+
+.mySlides {
+    position: relative;
+    width: 85%;
+    margin-left: 15%;
+}
+
+#slide {
+    background-color: #454547; 
+    border: 0;
+    transform: scale(0.6);
+    margin: 5% -4% 5% 58%;
+}
+
+#slidt {
+    background-color: #454547; 
+    border: 0;
+    transform: scale(0.6);
+}
+
+#slidy {
+    width: 8%;
+     transform: scale(0.6);
+    margin-top: -8.5%;
+    margin-left: 75%;
+}
+
+#sliddy {
+    background-color: #454547;
+    border: 0;
+}
+
+#sliddy:hover {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+
+hr {
+    margin-top: -19%;
+    color: white;
 }
     }
 }
