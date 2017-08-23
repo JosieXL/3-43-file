@@ -2687,7 +2687,7 @@ a:hover {
     
 .TS {
     margin-top: 30px;
-    width:350px;
+    max-width:600px;
     margin-right: 90px;
 }
 
