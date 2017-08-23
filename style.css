@@ -2687,7 +2687,7 @@ a:hover {
     
 .TS {
     margin-top: 30px;
-    max-width:600px;
+    max-width: 600px;
     margin-right: 90px;
 }
 
@@ -2895,7 +2895,7 @@ input[type="search"] {
 .TS {
     margin-top: 30px;
     max-width:600px;
-    margin-right: 40px;
+    margin-right: 0px;
 }
 li {
     width: 150px; 
@@ -3156,10 +3156,10 @@ li {
 
 #pg {
     font-size: 130%;
-    width: 75%;
+    width: 78%;
     margin-top: 450px;
     margin-left: 55px;
-    margin-bottom: -160px;
+    margin-bottom: -140px;
 }
 
 #ps {
@@ -3172,8 +3172,8 @@ li {
 #pf {
     text-align: center;
     font-size: 130%;
-    width: 83%;
-    margin: -445px 0px 80px 35px;
+    width: 87%;
+    margin: -425px 0px 80px 35px;
 }
 
 #pd {
@@ -3438,7 +3438,7 @@ li {
     text-align: center;
     font-size: 130%;
     width: 83%;
-    margin: -395px 0px 80px 35px;
+    margin: -385px 0px 90px 35px;
 }
 
 #nd {
@@ -3582,7 +3582,7 @@ border: solid #53b7c9 2px;
     background-color: #454547;
       min-height: 797px;  
       position: relative;
-    margin-top: 200px;
+    margin-top: 100px;
 }
     
 #IO {
@@ -3604,19 +3604,19 @@ border: solid #53b7c9 2px;
 #slide {
     background-color: #454547; 
     border: 0;
-    transform: scale(0.8);
-    margin: 5% -4% 5% 58%;
+    transform: scale(0.7);
+    margin: 5% -4% 5% 38%;
 }
 
 #slidt {
     background-color: #454547; 
     border: 0;
-    transform: scale(0.8);
+    transform: scale(0.7);
 }
 
 #slidy {
     width: 8%;
-     transform: scale(0.6);
+     transform: scale(0.7);
     margin-top: -5.5%;
     margin-left: 85%;
 }
@@ -3635,7 +3635,7 @@ border: solid #53b7c9 2px;
 }
 
 hr {
-    margin-top: -11%;
+    margin-top: -15%;
     color: white;
 }
 
@@ -3656,99 +3656,4 @@ hr {
         font-weight: bold;
         padding: 0px;
 }
-@media only screen and(max-width:424px) {
-        .mn-con {
-      min-height: 607px; 
-}
-    
-.mySlides {
-    max-width: 90px;
-    margin-left: 15%;
-    margin-right: 25%;
-    margin-bottom: -4%;
-}
-
-#slide {
-    background-color: #454547; 
-    border: 0;
-    transform: scale(0.6);
-    margin: 5% -2% 5% 69%;
-}
-
-#slidt {
-    background-color: #454547; 
-    border: 0;
-    transform: scale(0.6);
-}
-
-#slidy {
-    width: 8%;
-     transform: scale(0.8);
-    margin-top: -5.5%;
-    margin-left: 85%;
-}
-        
-hr {
-    margin-top: -19%;
-}
-  }  
-@media only screen and(max-width:375px) {
-.mn-con {
-    background-color: #454547;
-      min-height: 607px;  
-    margin-top: 100px;
-}
-    
-#IO {
-    background-color: #454547;
-    margin-left: -0.05%;
-    margin-right: -0.05%;
-    margin-top: -0.05%;
-    padding-top: 0.5%;
-}
-
-.mySlides {
-    position: relative;
-    width: 85%;
-    margin-left: 15%;
-}
-
-#slide {
-    background-color: #454547; 
-    border: 0;
-    transform: scale(0.6);
-    margin: 5% -4% 5% 58%;
-}
-
-#slidt {
-    background-color: #454547; 
-    border: 0;
-    transform: scale(0.6);
-}
-
-#slidy {
-    width: 8%;
-     transform: scale(0.6);
-    margin-top: -8.5%;
-    margin-left: 75%;
-}
-
-#sliddy {
-    background-color: #454547;
-    border: 0;
-}
-
-#sliddy:hover {
-    transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-}
-
-hr {
-    margin-top: -19%;
-    color: white;
-}
-    }
 }
